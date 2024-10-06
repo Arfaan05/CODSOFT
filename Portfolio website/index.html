@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="main.png" alt="Logo" style="height: 60px; width: auto;"></a>
+        <nav>
+            <a href="#about" class="active">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="home">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mohammed-arfan-167452171/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Arfaan05" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/arfaan.56" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+
+        <div class="home-content">
+            <div class="message-box">It's Me</div>
+            <h1 class="name">Mohammed</h1>
+            <h2 class="positioned-arfan">Arfan</h2>
+            <h3 class="typing-text software-developer">Software Developer</h3>
+            <p>I'm an IT undergraduate in my 2nd year at Muffakham Jah College of Engineering and Technology (MJCET), actively learning about app development and software development while continuously enhancing my skill set to excel in the dynamic field of technology.</p>
+        </div>
+
+        <div class="profile-image">
+            <img src="profile.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-icons">
+            <a href="#" title="C">
+                <i class="fa-solid fa-code"></i>
+                <span>C</span>
+            </a>
+            <a href="#" title="Python">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+            </a>
+            <a href="#" title="HTML">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML</span>
+            </a>
+            <a href="#" title="CSS">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS</span>
+            </a>
+            <a href="#" title="JavaScript">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+            </a>
+            <a href="#" title="C++">
+                <i class="fa-brands fa-cplusplus"></i>
+                <span>C++</span>
+            </a>
+        </div>
+        <p style="font-size: 1.6rem; margin-top: 1rem; text-align: center;">Striving to broaden my skill set!</p>
+        <p class="resume-info" style="font-size: 1.6rem; margin-top: 3rem; text-align: center;">Get my resume here</p>
+        <a href="path\resume.pdf" class="btn resume-btn" download>Download Resume</a>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="dropdown.avif" alt="Dropdown Menu Project" />
+                <span>Drop Down Menu</span>
+                <p>Created a responsive dropdown menu using CSS for styling and JavaScript for functionality. The menu enhances user navigation with smooth animations and dynamic interactions.</p>
+                <a href="https://github.com/Arfaan05/Menu" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <img src="caesar.jpg" alt="Caesar Encryption Project" />
+                <span>Caesar Encryption</span>
+                <p>Developed a Caesar cipher encryption program in C, implementing character shifting to encode messages. The code allows users to specify the shift value and provides functionality to decrypt as well.</p>
+                <a href="https://github.com/Arfaan05/Caesar" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <img src="port.jpg" alt="Port Scanner Project" />
+                <span>Port Scanner</span>
+                <p>Built a port scanner in Python that checks for open ports on a specified host. The program utilizes socket programming to identify services running on the target system.</p>
+                <a href="https://github.com/Arfaan05/Port-Scanner" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-item portfolio-item">
+                <img src="portfolio.png" alt="Portfolio Website Project" />
+                <span>Portfolio Website</span>
+                <p>Designed and developed a personal portfolio website showcasing projects and skills using HTML for structure, CSS for styling, and JavaScript for interactivity. The site emphasizes user experience with a clean layout and responsive design.</p>
+                <a href="https://github.com/Arfaan05/Portfolio" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="contact-header">Connect with Me</h2>
+        <div class="contact-info">
+            <p>Phone: <a href="tel:+1234567890">+91 9030582942</a></p>
+            <p>Email: <a href="mailto:arfaanmohammed56@mail.com">arfaanmohammed56@gmail.com</a></p>
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/Arfaan05" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mohammed-arfan-167452171/" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/arfaan.56/" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="translucent-box">
+            <div class="footer">
+                <p>&copy; 2024 Arfan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
